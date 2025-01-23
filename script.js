@@ -1,17 +1,17 @@
-const urlMappings = [
-    {
-        longUrl: "https://www.youtube.com/",
-        shortUrl: "https://shorturl.at/CYW3v"
-    },
-    {
-        longUrl: "https://www.google.com/",
-        shortUrl: "https://shorturl.at/JdYPy"
-    },
-    {
-        longUrl: "https://github.com/",
-        shortUrl: "https://shorturl.at/Njd1x"
-    }
-];
+// const urlMappings = [
+//     {
+//         longUrl: "https://www.youtube.com/",
+//         shortUrl: "https://shorturl.at/CYW3v"
+//     },
+//     {
+//         longUrl: "https://www.google.com/",
+//         shortUrl: "https://shorturl.at/JdYPy"
+//     },
+//     {
+//         longUrl: "https://github.com/",
+//         shortUrl: "https://shorturl.at/Njd1x"
+//     }
+// ];
 
 async function shortenUrl() {
     const inputUrl = document.getElementById("longUrl").value.trim();
