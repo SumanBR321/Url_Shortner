@@ -1,18 +1,3 @@
-// const urlMappings = [
-//     {
-//         longUrl: "https://www.youtube.com/",
-//         shortUrl: "https://shorturl.at/CYW3v"
-//     },
-//     {
-//         longUrl: "https://www.google.com/",
-//         shortUrl: "https://shorturl.at/JdYPy"
-//     },
-//     {
-//         longUrl: "https://github.com/",
-//         shortUrl: "https://shorturl.at/Njd1x"
-//     }
-// ];
-
 async function shortenUrl() {
     const inputUrl = document.getElementById("longUrl").value.trim();
     const resultElement = document.getElementById("shortUrlResult");
@@ -33,5 +18,18 @@ async function shortenUrl() {
     } catch (error) {
         resultElement.innerHTML = "Error loading URL data.";
         console.error("Error fetching JSON:", error);
+    }
+}
+
+async function copyToClipboard() {
+    const resultInput = document.getElementById("shortUrlResult");
+
+    try {
+        console.log(resultInput);
+        await navigator.clipboard.writeText(resultInput.value);
+        // alert("Short URL copied to clipboard!");
+    } catch (err) {
+        alert("Failed to copy URL. Please copy manually.");
+        console.error("Clipboard error:", err);
     }
 }
