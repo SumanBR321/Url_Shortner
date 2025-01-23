@@ -1,14 +1,62 @@
 [
     {
-        "longUrl": "https://www.youtube.com/",
-        "shortUrl": "https://shorturl.at/CYW3v"
+      "longUrl": "https://www.google.com/",
+      "shortURL": "https://shorturl.at/NFTyL"
     },
     {
-        "longUrl": "https://www.google.com/",
-        "shortUrl": "https://shorturl.at/JdYPy"
+      "longUrl": "https://www.facebook.com/",
+      "shortURL": "https://shorturl.at/Jd4vV"
     },
     {
-        "longUrl": "https://github.com/",
-        "shortUrl": "https://shorturl.at/Njd1x"
+      "longUrl": "https://www.amazon.com/",
+      "shortURL": "https://shorturl.at/8jzxo"
+    },
+    {
+      "longUrl": "https://www.youtube.com/",
+      "shortURL": "https://shorturl.at/CYW3v"
+    },
+    {
+      "longUrl": "https://www.wikipedia.org/",
+      "shortURL": "https://bit.ly/40rgky3"
+    },
+    {
+      "longUrl": "https://www.instagram.com/",
+      "shortURL": "https://bit.ly/3Wpdfx5"
+    },
+    {
+      "longUrl": "https://www.x.com/",
+      "shortURL": "https://bit.ly/40JZDze"
+    },
+    {
+      "longUrl": "https://www.linkedin.com/",
+      "shortURL": "https://bit.ly/3Cm1Aso"
+    },
+    {
+      "longUrl": "https://www.netflix.com/",
+      "shortURL": "https://bit.ly/4avo9rh"
+    },
+    {
+      "longUrl": "https://www.reddit.com/",
+      "shortURL": "https://tinyurl.com/yeypz8en"
+    },
+    {
+      "longUrl": "https://github.com/",
+      "shortURL": "https://tinyurl.com/338wfpaa"
+    },
+    {
+      "longUrl": "https://www.medium.com/",
+      "shortURL": "https://tinyurl.com/2e9dwyrk"
+    },
+    {
+      "longUrl": "https://www.quora.com/",
+      "shortURL": "https://tinyurl.com/3k2m7bv3"
+    },
+    {
+      "longUrl": "https://www.stackoverflow.com/",
+      "shortURL": "https://tinyurl.com/yjpj99cs"
+    },
+    {
+      "longUrl": "https://www.apple.com/",
+      "shortURL": "https://tinyurl.com/3ad6emch"
     }
-]
+  ]
