@@ -1,0 +1,14 @@
+[[
+    {
+        "longUrl": "https://www.youtube.com",
+        "shortUrl": "https://short.url/yt1"
+    },
+    {
+        "longUrl": "https://www.google.com",
+        "shortUrl": "https://short.url/googl1"
+    },
+    {
+        "longUrl": "https://www.github.com",
+        "shortUrl": "https://short.url/githb1"
+    }
+]]
