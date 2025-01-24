@@ -1,4 +1,4 @@
-.bodyCss {
+.body {
     font-family: Arial, sans-serif;
     background-color: paleturquoise;
     text-align: center;
@@ -41,9 +41,7 @@ button:hover {
     color: #333;
 }
 
-.buttonCss{
-    border-radius: 50px;
-}
+
 
 @media (min-width: 700px) {
     .container1 {

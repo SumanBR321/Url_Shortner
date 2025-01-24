@@ -11,7 +11,7 @@ async function shortenUrl() {
         console.log(mapping);
         
         if (mapping) {
-            resultElement.innerHTML = `Short URL: <a href="${mapping.shortUrl}" target="_blank">${mapping.shortUrl}</a>`;
+            resultElement.innerHTML = `Short URL: <a href="${mapping.shortUrl}" id="shortUrl" target="_blank">${mapping.shortUrl}</a>`;
         } else {
             resultElement.innerHTML = "Short URL not found for the given input.";
         }
@@ -21,15 +21,17 @@ async function shortenUrl() {
     }
 }
 
-async function copyToClipboard() {
-    const resultInput = document.getElementById("shortUrlResult");
-
-    try {
-        console.log(resultInput);
-        await navigator.clipboard.writeText(resultInput.value);
-        // alert("Short URL copied to clipboard!");
-    } catch (err) {
-        alert("Failed to copy URL. Please copy manually.");
-        console.error("Clipboard error:", err);
+function copyLink() {
+    const link = document.getElementById("shortUrl");
+    if (!link) {
+      alert("No link to copy!");
+      return;
     }
-}
+    navigator.clipboard.writeText(link)
+      .then(() => {
+        alert(`${link} copied to clipboard!`);
+      })
+      .catch((err) => {
+        console.error("Failed to copy link: ", err);
+      });
+  }
