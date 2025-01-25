@@ -9,8 +9,9 @@
     background: rgb(19, 166, 166);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
+    border: 3px solid black;
     border-radius: 10px;
 }
 
